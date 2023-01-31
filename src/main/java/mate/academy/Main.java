@@ -17,6 +17,7 @@ public class Main {
         iPhone.setName("iPhone 1000");
         iPhone.setPrise(BigDecimal.valueOf(94540));
         bean.add(iPhone);
+
         bean.add(iPhone2);
         System.out.println(bean.getAll());
     }
