@@ -11,4 +11,6 @@ public interface ProductDao {
     List<Product> getAll();
 
     Optional<Product> getById(Long id);
+
+    List<Product> getAllByBrand(String brand);
 }

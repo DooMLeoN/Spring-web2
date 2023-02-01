@@ -9,16 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="dto create">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/maper/ProductDtoMapper.java" afterDir="false" />
+    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="PathVariable add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/maper/ProductDtoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/maper/ProductDtoMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +210,8 @@
       <workItem from="1675075442898" duration="9884000" />
       <workItem from="1675167723004" duration="3357000" />
       <workItem from="1675174152019" duration="963000" />
-      <workItem from="1675241583291" duration="2526000" />
+      <workItem from="1675241583291" duration="7601000" />
+      <workItem from="1675250982242" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675085661840</created>
@@ -239,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675171301298</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="PathVariable add">
+      <created>1675244585643</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675244585643</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +281,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="dto create" />
-    <option name="LAST_COMMIT_MESSAGE" value="dto create" />
+    <MESSAGE value="PathVariable add" />
+    <option name="LAST_COMMIT_MESSAGE" value="PathVariable add" />
   </component>
 </project>

@@ -5,7 +5,16 @@ import java.math.BigDecimal;
 public class ProductRequestDto {
     private String name;
 
+    private String brand;
     private BigDecimal prise;
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
     public String getName() {
         return name;

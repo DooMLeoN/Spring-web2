@@ -31,4 +31,9 @@ public class ProductServiceImpl implements ProductService {
     public Product getById(Long id) {
         return productDao.getById(id).orElseThrow(RuntimeException::new);
     }
+
+    @Override
+    public List<Product> getByBrand(String brand) {
+        return productDao.getAllByBrand(brand);
+    }
 }

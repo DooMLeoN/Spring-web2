@@ -52,8 +52,23 @@ public class ProductDaoImpl implements ProductDao {
     @Override
     public Optional<Product> getById(Long id) {
         try(Session session = sessionFactory.openSession()) {
-            Product id1 = session.createQuery("SELECT p FROM Product p WHERE p.id =: id", Product.class).setParameter("id", id).getSingleResult();
+            Product id1 = session.createQuery("SELECT p FROM Product p WHERE p.id =: id", Product.class)
+                    .setParameter("id", id)
+                    .getSingleResult();
             return Optional.ofNullable(id1);
+        } catch (Exception e) {
+            throw new RuntimeException("Can't get user by id:" + id);
+        }
+    }
+
+    @Override
+    public List<Product> getAllByBrand(String brand) {
+        try(Session session = sessionFactory.openSession()) {
+            return session.createQuery("SELECT p FROM Product p WHERE p.brand =: brand", Product.class)
+                    .setParameter("brand", brand)
+                    .getResultList();
+        } catch (Exception e) {
+            throw new RuntimeException("Can't get all users by brand:" + brand);
         }
     }
 }

@@ -15,6 +15,8 @@ public class Product {
 
     private BigDecimal prise;
 
+    private String brand;
+
     public Product() {
     }
 
@@ -22,6 +24,20 @@ public class Product {
         this.id = id;
         this.name = name;
         this.prise = prise;
+    }
+
+    public Product(String name, BigDecimal prise, String brand) {
+        this.name = name;
+        this.prise = prise;
+        this.brand = brand;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     public Long getId() {
@@ -54,6 +70,7 @@ public class Product {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", prise=" + prise +
+                ", brand='" + brand + '\'' +
                 '}';
     }
 }
