@@ -9,4 +9,6 @@ public interface ProductDao {
     Product add(Product product);
 
     List<Product> getAll();
+
+    Optional<Product> getById(Long id);
 }

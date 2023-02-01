@@ -1,6 +1,7 @@
 package mate.academy.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import mate.academy.dao.ProductDao;
 import mate.academy.model.Product;
@@ -24,5 +25,10 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> getAll() {
         return productDao.getAll();
+    }
+
+    @Override
+    public Product getById(Long id) {
+        return productDao.getById(id).orElseThrow(RuntimeException::new);
     }
 }

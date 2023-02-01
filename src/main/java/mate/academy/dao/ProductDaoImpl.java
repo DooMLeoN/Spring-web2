@@ -1,6 +1,8 @@
 package mate.academy.dao;
 
 import java.util.List;
+import java.util.Optional;
+
 import mate.academy.model.Product;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -44,6 +46,14 @@ public class ProductDaoImpl implements ProductDao {
                     Product.class).getResultList();
         } catch (Exception e) {
             throw new RuntimeException("Can't get all users from DB!");
+        }
+    }
+
+    @Override
+    public Optional<Product> getById(Long id) {
+        try(Session session = sessionFactory.openSession()) {
+            Product id1 = session.createQuery("SELECT p FROM Product p WHERE p.id =: id", Product.class).setParameter("id", id).getSingleResult();
+            return Optional.ofNullable(id1);
         }
     }
 }
