@@ -9,16 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/validation/annotation/ValidationAnnotationUtils">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="fix try 1">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +205,7 @@
       <workItem from="1675241583291" duration="7601000" />
       <workItem from="1675250982242" duration="2808000" />
       <workItem from="1675326659750" duration="4576000" />
-      <workItem from="1675333160025" duration="1707000" />
+      <workItem from="1675333160025" duration="2100000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675085661840</created>
@@ -257,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675253690191</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix try 1">
+      <created>1675335291206</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675335291206</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +291,7 @@
     <MESSAGE value="dto create" />
     <MESSAGE value="PathVariable add" />
     <MESSAGE value="org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/validation/annotation/ValidationAnnotationUtils" />
-    <option name="LAST_COMMIT_MESSAGE" value="org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/validation/annotation/ValidationAnnotationUtils" />
+    <MESSAGE value="fix try 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix try 1" />
   </component>
 </project>
