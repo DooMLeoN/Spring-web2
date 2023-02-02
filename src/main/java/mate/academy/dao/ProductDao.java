@@ -13,4 +13,6 @@ public interface ProductDao {
     Optional<Product> getById(Long id);
 
     List<Product> getAllByBrand(String brand);
+
+    void delete(Long id);
 }

@@ -13,4 +13,6 @@ public interface ProductService {
     Product getById(Long id);
 
     List<Product> getByBrand(String brand);
+
+    void delete(Long id);
 }

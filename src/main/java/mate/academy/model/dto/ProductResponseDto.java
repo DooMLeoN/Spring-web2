@@ -5,10 +5,10 @@ import java.math.BigDecimal;
 public class ProductResponseDto {
     private Long id;
     private String name;
-
+    private String brand;
     private BigDecimal prise;
 
-    private String brand;
+
 
     public String getBrand() {
         return brand;

@@ -71,4 +71,25 @@ public class ProductDaoImpl implements ProductDao {
             throw new RuntimeException("Can't get all users by brand:" + brand);
         }
     }
+
+    @Override
+    public void delete(Long id) {
+        Session session = null;
+        Transaction transaction = null;
+        try {
+            session = sessionFactory.openSession();
+            transaction = session.beginTransaction();
+            session.delete(id);
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            throw new RuntimeException("Can't delete product to DB by id:" + id);
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+    }
 }

@@ -11,7 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/validation/annotation/ValidationAnnotationUtils">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaProg/Spring/Spring-web",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "60cea192164f93a334776f1e644273e5",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/javaProg/Spring/Spring-web&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;60cea192164f93a334776f1e644273e5&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="mate.academy.service" />
@@ -205,7 +212,8 @@
       <workItem from="1675174152019" duration="963000" />
       <workItem from="1675241583291" duration="7601000" />
       <workItem from="1675250982242" duration="2808000" />
-      <workItem from="1675326659750" duration="871000" />
+      <workItem from="1675326659750" duration="4576000" />
+      <workItem from="1675333160025" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675085661840</created>

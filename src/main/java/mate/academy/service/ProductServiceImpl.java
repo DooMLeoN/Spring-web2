@@ -1,8 +1,6 @@
 package mate.academy.service;
 
 import java.util.List;
-import java.util.Optional;
-
 import mate.academy.dao.ProductDao;
 import mate.academy.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,5 +33,10 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> getByBrand(String brand) {
         return productDao.getAllByBrand(brand);
+    }
+
+    @Override
+    public void delete(Long id) {
+        productDao.delete(id);
     }
 }
