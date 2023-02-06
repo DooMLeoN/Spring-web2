@@ -15,4 +15,6 @@ public interface ProductDao {
     List<Product> getAllByBrand(String brand);
 
     void delete(Long id);
+
+    Optional<Product> update(Long id, Product product);
 }

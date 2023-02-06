@@ -45,7 +45,7 @@ public class ProductDaoImpl implements ProductDao {
             return session.createQuery("SELECT p FROM Product p ",
                     Product.class).getResultList();
         } catch (Exception e) {
-            throw new RuntimeException("Can't get all users from DB!");
+            throw new RuntimeException("Can't get all products from DB!");
         }
     }
 
@@ -57,7 +57,7 @@ public class ProductDaoImpl implements ProductDao {
                     .getSingleResult();
             return Optional.ofNullable(id1);
         } catch (Exception e) {
-            throw new RuntimeException("Can't get user by id:" + id);
+            throw new RuntimeException("Can't get product by id:" + id);
         }
     }
 
@@ -68,7 +68,7 @@ public class ProductDaoImpl implements ProductDao {
                     .setParameter("brand", brand)
                     .getResultList();
         } catch (Exception e) {
-            throw new RuntimeException("Can't get all users by brand:" + brand);
+            throw new RuntimeException("Can't get all product by brand:" + brand);
         }
     }
 
@@ -76,10 +76,12 @@ public class ProductDaoImpl implements ProductDao {
     public void delete(Long id) {
         Session session = null;
         Transaction transaction = null;
+        Product product = getById(id).orElseThrow(() ->
+                new RuntimeException("Sorry theres no product by id :" + id));
         try {
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
-            session.delete(id);
+            session.delete(product);
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {
@@ -91,5 +93,10 @@ public class ProductDaoImpl implements ProductDao {
                 session.close();
             }
         }
+    }
+
+    @Override
+    public Optional<Product> update(Long id, Product product) {
+        return Optional.empty();
     }
 }

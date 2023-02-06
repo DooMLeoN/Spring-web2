@@ -15,4 +15,6 @@ public interface ProductService {
     List<Product> getByBrand(String brand);
 
     void delete(Long id);
+
+    Product update(Product product);
 }

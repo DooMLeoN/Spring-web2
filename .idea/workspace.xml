@@ -9,8 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="fix try 1">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="fix done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/javaProg/Spring/Spring-web&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/javaProg/Spring/Lection-Intro/Lection&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,20 +84,7 @@
       <recent name="mate.academy.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.85">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mate.academy.Main" />
-      <module name="Lection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mate.academy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 8.5.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -103,7 +95,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="c1b1a286-b534-4e80-a3e6-4131b1e810d5" />
+        <option name="BASE_DIRECTORY_NAME" value="421fddeb-5bd7-4b7d-a3aa-b66afbe5853e" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -111,7 +103,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57448" />
+        <option name="DEBUG_PORT" value="59754" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -180,15 +172,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.85" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -205,7 +188,11 @@
       <workItem from="1675241583291" duration="7601000" />
       <workItem from="1675250982242" duration="2808000" />
       <workItem from="1675326659750" duration="4576000" />
-      <workItem from="1675333160025" duration="2100000" />
+      <workItem from="1675333160025" duration="7161000" />
+      <workItem from="1675347605966" duration="1135000" />
+      <workItem from="1675415438129" duration="23000" />
+      <workItem from="1675415866594" duration="2497000" />
+      <workItem from="1675675682615" duration="567000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675085661840</created>
@@ -256,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675335291206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix done">
+      <created>1675336133467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675336133467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +286,7 @@
     <MESSAGE value="PathVariable add" />
     <MESSAGE value="org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: org/springframework/validation/annotation/ValidationAnnotationUtils" />
     <MESSAGE value="fix try 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix try 1" />
+    <MESSAGE value="fix done" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix done" />
   </component>
 </project>

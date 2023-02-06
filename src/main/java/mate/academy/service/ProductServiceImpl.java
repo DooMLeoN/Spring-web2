@@ -39,4 +39,9 @@ public class ProductServiceImpl implements ProductService {
     public void delete(Long id) {
         productDao.delete(id);
     }
+
+    @Override
+    public Product update(Product product) {
+        return null;
+    }
 }
