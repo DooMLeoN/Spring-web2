@@ -1,11 +1,18 @@
 package mate.academy.model.dto;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 
 public class ProductRequestDto {
+    @NotNull
+    @Size(min = 4)
     private String name;
-
+    @NotNull
     private String brand;
+    @NotNull
+    @Min(value = 1L)
     private BigDecimal prise;
 
     public String getBrand() {

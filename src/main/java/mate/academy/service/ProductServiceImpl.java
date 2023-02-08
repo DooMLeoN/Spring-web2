@@ -41,7 +41,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product update(Product product) {
-        return null;
+    public void update(Product product) {
+        productDao.update(product);
     }
 }

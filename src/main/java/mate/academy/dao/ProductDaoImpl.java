@@ -74,29 +74,32 @@ public class ProductDaoImpl implements ProductDao {
 
     @Override
     public void delete(Long id) {
+        try(Session session = sessionFactory.openSession()) {
+            session.createQuery("DELETE FROM Product p WHERE p.id=:id",Product.class)
+                    .setParameter("id",id);
+        } catch (Exception e) {
+            throw new RuntimeException("Can't delete product by id:" + id, e);
+        }
+    }
+
+    @Override
+    public void update( Product product) {
         Session session = null;
         Transaction transaction = null;
-        Product product = getById(id).orElseThrow(() ->
-                new RuntimeException("Sorry theres no product by id :" + id));
         try {
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
-            session.delete(product);
+            session.update(product);
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {
                 transaction.rollback();
             }
-            throw new RuntimeException("Can't delete product to DB by id:" + id);
+            throw new RuntimeException("Can't update product session: " + product, e);
         } finally {
             if (session != null) {
                 session.close();
             }
         }
-    }
-
-    @Override
-    public Optional<Product> update(Long id, Product product) {
-        return Optional.empty();
     }
 }
