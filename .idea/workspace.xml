@@ -10,15 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f811535b-d2a5-4210-ae29-2815f4fa86d3" name="Changes" comment="fix done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/config/SecurityConfigure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/config/WebSecurityInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/InjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/security/CustomUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/security/MateAcademyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/dao/ProductDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/model/dto/ProductRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mate/academy/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +54,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -71,20 +85,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/javaProg/Spring/REST-Practice/jv-spring-rest-web-practice",
+    "last_opened_file_path": "C:/javaProg/Spring/Spring-Security-Part-1/Lection",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "spring.configuration.checksum": "60cea192164f93a334776f1e644273e5",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="mate.academy.service" />
       <recent name="mate.academy.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\javaProg\Spring\Spring-Security-Part-1\Lection\src\main\java\mate\academy\config" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +123,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="421fddeb-5bd7-4b7d-a3aa-b66afbe5853e" />
+        <option name="BASE_DIRECTORY_NAME" value="e51a799a-fc50-44c6-b5ee-7971b3c0512f" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -106,7 +131,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59754" />
+        <option name="DEBUG_PORT" value="63305" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -199,6 +224,13 @@
       <workItem from="1675676729582" duration="2579000" />
       <workItem from="1675686474663" duration="3089000" />
       <workItem from="1675694988731" duration="1304000" />
+      <workItem from="1676295455895" duration="3296000" />
+      <workItem from="1676375832806" duration="2831000" />
+      <workItem from="1676379539433" duration="13000" />
+      <workItem from="1676466803047" duration="5584000" />
+      <workItem from="1676555930051" duration="5698000" />
+      <workItem from="1676622629536" duration="3515000" />
+      <workItem from="1676985789367" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1675085661840</created>

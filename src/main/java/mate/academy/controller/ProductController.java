@@ -44,7 +44,7 @@ public class ProductController {
     public ProductResponseDto getById(@PathVariable Long id) {
         return productDtoMapper.pars(productService.getById(id));
     }
-    @GetMapping("/")
+    @GetMapping("/all")
     public List<ProductResponseDto> getAllProduct() {
         return productService.getAll()
                 .stream()
